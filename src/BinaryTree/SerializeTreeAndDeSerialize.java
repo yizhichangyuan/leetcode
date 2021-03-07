@@ -175,10 +175,13 @@ public class SerializeTreeAndDeSerialize {
 
 
     public static void main(String[] args) {
-        SerializeTreeAndDeSerialize code = new SerializeTreeAndDeSerialize();
-        String data = code.serialize(null);
-        System.out.println(data);
-        TreeNode temp = code.deserialize(data);
-        System.out.println(temp);
+//        SerializeTreeAndDeSerialize code = new SerializeTreeAndDeSerialize();
+//        String data = code.serialize(null);
+//        System.out.println(data);
+//        TreeNode temp = code.deserialize(data);
+//        System.out.println(temp);
+        int[] a = new int[]{3,4,2};
+        Arrays.sort(a);
+        System.out.println(a[a.length - 1]);
     }
 }
